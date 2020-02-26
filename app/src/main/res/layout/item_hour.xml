@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingHorizontal="10dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/Txt_hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#fff"
+        android:layout_weight="1"
+        android:text="14:00" />
+
+    <ImageView
+        android:id="@+id/image_hour"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/ic_cloud_sun" />
+
+    <TextView
+        android:id="@+id/Txt_hour_tem"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="28 °C" />
+</LinearLayout>

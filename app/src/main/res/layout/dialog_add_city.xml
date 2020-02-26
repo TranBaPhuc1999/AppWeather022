@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/add_city"
+        android:layout_marginHorizontal="20dp"
+        android:singleLine="true"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:hint="Nhập thành phố"/>
+    <LinearLayout
+        android:layout_marginVertical="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_height="wrap_content"
+            android:text="Hủy" />
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm" />
+
+    </LinearLayout>
+
+</LinearLayout>

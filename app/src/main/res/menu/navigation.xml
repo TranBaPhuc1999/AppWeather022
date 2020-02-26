@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/now"
+        android:title="Now" />
+    <item
+        android:id="@+id/hourly"
+        android:title="Hourly" />
+
+    <item
+        android:id="@+id/Setting"
+        android:title="Setting"
+        android:orderInCategory="100" />
+
+</menu>

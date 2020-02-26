@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bddd"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_list_city"
+            android:layout_marginStart="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_icon_list" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/button_find"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_find" />
+
+            <EditText
+                android:id="@+id/edit_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginHorizontal="10dp"
+                android:background="@null"
+                android:hint="Thành phố"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/button_share"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_share" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image_my_location"
+            android:layout_width="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/ic_icon_location" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:orientation="vertical">
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            -->
+<!--            android:layout_height="wrap_content"/>-->
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentStart="true"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/image_MinTem"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp">
+                </ImageView>
+                <TextView
+                    android:id="@+id/TxT_min"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/img_type_wether"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp">
+                </ImageView>
+                <TextView
+                    android:id="@+id/TxT_type_weather"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+                <TextView
+                    android:id="@+id/TxT_now_tem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="vertical"
+                android:layout_marginEnd="20dp"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/image_MaxTem"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/TxT_max"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginLeft="80dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/image_Humodity"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp">
+                </ImageView>
+                <TextView
+                    android:id="@+id/TxT_humidity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="vertical"
+                android:layout_marginEnd="80dp"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/image_WindSpeed"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/TxT_wind_speed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/list_item_hour"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:id="@+id/casts_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" />
+    </HorizontalScrollView>
+
+    <ListView
+        android:id="@+id/list_day"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
+

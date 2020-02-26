@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_height="wrap_content" android:layout_width="wrap_content">
+
+    <item android:id="@+id/delete"
+        android:title="Xóa thành phố" />
+
+    <item android:id="@+id/show"
+        android:title="Xem thời tiết" />
+</menu>
