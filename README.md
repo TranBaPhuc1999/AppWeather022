@@ -17,7 +17,7 @@ Simple weather application
 * Android 5.0 +
 
 ## Development team
-* [Phuc Tran Ba](https://github.com/TranBaPhuc1999)
+* [Phuc Tran Ba](https://github.com/phuctranba)
 
 ## Development purpose
 Personal projects
