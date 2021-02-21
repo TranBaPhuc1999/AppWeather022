@@ -13,6 +13,9 @@ Simple weather application
 ## Libraries 
 * [Picasso](https://github.com/square/picasso)
 
+## Screen Shot
+<img class="img-fluid" src="./ScreenShots/Screenshot.png" alt="img-verification" width="400">
+
 ## Support
 * Android 5.0 +
 
